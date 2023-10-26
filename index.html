@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flutter Development Setup</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center">Flutter Development Setup</h1>
+      <h6 class="text-center">
+        <a target="_blank" href="https://flutlab.io/"
+          >Optional: Sign Up to FlutLab if your device doesnt meet the flutter
+          requirements</a
+        >
+      </h6>
+      <h3>Visual Studio Code Installation</h3>
+      <ol>
+        <li>
+          Visit the official
+          <a href="https://code.visualstudio.com/download"
+            >VS Code download page</a
+          >.
+        </li>
+        <li>Download the version suitable for your operating system.</li>
+        <li>Follow the installation instructions.</li>
+      </ol>
+
+      <h3>Visual Studio Installation</h3>
+      <ol>
+        <li>
+          Visit the official
+          <a href="https://visualstudio.microsoft.com/downloads/"
+            >Visual Studio download page</a
+          >.
+        </li>
+        <li>
+          Download the version suitable for your operating system and needs.
+        </li>
+        <li>
+          During the installation process, make sure to tick "C++ development
+          for desktop" from the list of available workloads.
+        </li>
+        <li>Follow the remaining installation instructions.</li>
+      </ol>
+
+      <h3>Android Studio and Emulator</h3>
+      <ol>
+        <li>
+          Visit the official
+          <a href="https://developer.android.com/studio"
+            >Android Studio download page</a
+          >.
+        </li>
+        <li>Download and install Android Studio.</li>
+        <li>
+          During installation, make sure the Android Virtual Device (AVD) option
+          is selected to install the emulator.
+        </li>
+        <li>
+          After installation, open Android Studio and go to Tools > AVD Manager
+          to set up an Android emulator.
+        </li>
+      </ol>
+
+      <h3>Flutter Extension for VS Code</h3>
+      <ol>
+        <li>Open VS Code.</li>
+        <li>Go to Extensions (you can press <code>Ctrl+Shift+X</code>).</li>
+        <li>
+          Search for "Flutter" and install the official Flutter extension by the
+          Flutter Team.
+        </li>
+      </ol>
+
+      <h3>Flutter Installation</h3>
+      <ol>
+        <li>
+          Ensure you have the required
+          <a href="https://flutter.dev/docs/get-started/install"
+            >system prerequisites</a
+          >.
+        </li>
+        <li>
+          Download the
+          <a href="https://flutter.dev/docs/get-started/install">Flutter SDK</a
+          >.
+        </li>
+        <li>Extract the zip file and add Flutter to your PATH.</li>
+        <li>
+          For Mac OS user, make sure to update your XCode to latest version.
+        </li>
+        <li>
+          Run <code>flutter doctor</code> in CMD/Terminal to check for any
+          dependencies you still may need.
+        </li>
+        <li>
+          Make sure to flutter doctor command passes all checklist (Mine got 2
+          versions of VSCode, only 1 is sufficient).
+          <div class="text-center mt-3">
+            <!-- Replace 'YOUR_IMAGE_LINK_HERE' with your image's URL -->
+            <img
+              src="images/1.png"
+              alt="Flutter Doctor Screenshot"
+              class="img-fluid"
+              style="
+                max-width: 80%;
+                border-radius: 10px;
+                border: 3px solid var(--maokai-green);
+              "
+            />
+          </div>
+        </li>
+      </ol>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
